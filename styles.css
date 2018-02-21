@@ -1,33 +1,71 @@
 body {
-    background-color: #B5ADA5;
+    background-color: #FFFFFF;
 }
 
 .header {
-    color:#D7BBA2;
-    font-family: 'Raleway', sans-serif;
+    color:#000000;
+    font-family: 'Special Elite', cursive;
     font-size: 45px;
     font-weight: bold;
     text-align: center;
 }
 
 .intro {
-    color:#9B7F5F;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bolder;
+    color:#000000;
+    font-family: 'Merriweather', serif;
     display: flex;
     align-items: center;
     margin:0 auto;
     width:500px;
 }
 
-.intropicture {
-    border-radius: 50%;
+ .intropicture {
     box-shadow: 5px 5px 10px grey;
-    width: 200px;
-    height: 200px;
-}
+} 
 
 .introtext {
-    width: 300px;
+    width: 400px;
     margin-left: 20px;
+}
+
+.subheader {
+    color:#000000;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0; 
+}
+
+.body {
+    color: #000000;
+    font-family: 'Merriweather', serif;
+    text-align: center; 
+}
+
+.icons {
+    margin: 50px;
+    text-align: center;
+}
+
+.fa {
+    padding: 15px; 
+    width: 15px;
+    height: 15px;
+    text-decoration: none; 
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-github {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.fa-linkedin {
+    background: #000000;
+    color: #FFFFFF;
 }
